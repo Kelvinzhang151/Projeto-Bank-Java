@@ -111,14 +111,3 @@ Elas ficam só na memória, num `Map`. Para guardar de forma permanente, o próx
 
 **Para que serve o `ApiExceptionHandler`?**
 Em vez de tratar o erro em cada método, o `@RestControllerAdvice` captura as `NegocioException` num lugar só e responde com HTTP 400 e a mensagem.
-
-## Publicar no GitHub
-
-```bash
-git init
-git add .
-git commit -m "ByteBank: Singleton, Strategy e Facade com Spring Boot"
-git branch -M main
-git remote add origin <URL-DO-SEU-REPOSITORIO>
-git push -u origin main
-```
